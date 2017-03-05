@@ -4,7 +4,8 @@
     "repository": "https://github.com/Chadtech/elm-loop.git",
     "license": "BSD3",
     "source-directories": [
-        "."
+        ".",
+        ".."
     ],
     "exposed-modules": [ "Loop" ],
     "dependencies": {
