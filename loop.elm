@@ -33,7 +33,7 @@ while condition state f =
         state
 
 
-{-| A twist on the classic while loop. It loops until the condition is NOT met.
+{-| A twist on the classic while loop. It loops while the condition is NOT met.
 
 
     countJustForFun : Int -> Int
