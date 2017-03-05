@@ -5,16 +5,18 @@ module Loop
         )
 
 
-{-| Just some loop functions.
+{-| Loop functions, just like the ones in C syntax programming languages.
 
 @docs while, until 
 
 -}
 
-{-| The classic while loop. So classic. 
+{-| The classic while loop. 
 
 
-    Loop.while ((>) 100) 0 ((+) 1)
+    count : Int
+    count =
+        Loop.while ((>) 100) 0 ((+) 1)
 
     -- is basically analagous to..
     --
@@ -22,14 +24,6 @@ module Loop
     -- while ( i < 100) {
     --   i++;
     -- }
-
-    ponder : String -> String
-    ponder this =
-        Loop.while 
-            (always False)
-            this
-            identity
-
 -}
 while : (a -> Bool) -> a -> (a -> a) -> a
 while condition state f =
