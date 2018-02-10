@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "summary": "Looping functions like while and until",
     "repository": "https://github.com/Chadtech/elm-loop.git",
     "license": "BSD3",
