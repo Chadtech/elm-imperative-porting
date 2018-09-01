@@ -1,7 +1,6 @@
 module Imperative exposing
     ( while, until, doWhile
     , Termination(..), explicitLoop
-    , function
     )
 
 {-| Functions that resemble imperative syntax
